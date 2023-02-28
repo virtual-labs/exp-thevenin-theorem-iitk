@@ -2,15 +2,15 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": ". The Thevenin voltage is the?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "open circuit voltage",
+        "b": "short circuit voltage",
+        "c": "open circuit and short circuit voltage",
+        "d": ". neither open circuit nor short circuit voltage"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "a": "Explanation 1  <a href='https://www.sanfoundry.com/network-theory-questions-answers-thevenins-theorem-ac/'>open circuit voltage</a>",
         "b": "Explanation 2",
         "c": "Explanation 2",
         "d": "Explanation 2"
@@ -19,20 +19,37 @@
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Thevenin resistance is found by?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "shorting all voltage sources",
+        "b": "opening all current sources",
+        "c": "shorting all voltage sources and opening all current sources",
+        "d": "opening all voltage sources and shorting all current sources"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "a": "Explanation 1  <a href='https://www.sanfoundry.com/network-theory-questions-answers-thevenins-theorem-ac/'>shorting all voltage sources and opening all current sources</a>",
         "b": "Explanation 2",
         "c": "Explanation 2",
         "d": "Explanation 2"
       },
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+     {
+      "question": "Superposition theorem is true for ",
+      "answers": {
+        "a": "linear netwroks",
+        "b": "non-linear networks",
+        "c": "both linear and non linear networks",
+        "d": "neither linear nor non linear networks"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='https://www.sanfoundry.com/network-theory-questions-answers-thevenins-theorem-ac/'>linear networks</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]
