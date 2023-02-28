@@ -2,15 +2,49 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "In superposition theorem, while considering a source, all other voltage sources are?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "open circuited",
+        "b": "short circuited",
+        "c": "change in position",
+        "d": "removed from the circuit"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "a": "Explanation 1  <a href='https://www.sanfoundry.com/network-theory-questions-answers-thevenins-theorem-ac/'>short circuited</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Can we use Thevenin's theorem on a circuit containing a BJT?",
+      "answers": {
+        "a": "yes",
+        "b": "no",
+        "c": "depends on the BJT",
+        "d": "insufficient data provided"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='https://www.sanfoundry.com/network-theory-questions-answers-thevenins-theorem-ac/'>no</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Superposition theorem is applicable for the calculation of:",
+      "answers": {
+        "a": "voltage and current but not power",
+        "b": "both voltage and power ",
+        "c": "both current and power",
+        "d": "voltage,current and power"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='https://www.sanfoundry.com/network-theory-questions-answers-thevenins-theorem-ac/'>voltage and current but not power</a>",
         "b": "Explanation 2",
         "c": "Explanation 2",
         "d": "Explanation 2"
@@ -18,22 +52,5 @@
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
-    }
   ]
 }
