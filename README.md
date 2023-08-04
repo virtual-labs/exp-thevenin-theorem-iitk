@@ -14,17 +14,16 @@ For Thevenin we will four resistors one voltage source and one current source.
 For Superposition we will use four resistor out of which one will be load and two volatge source.
   
 
-<b>Name of Developer | <b> Akanksha Pal
+<b>Name of Developer | <b>  Dr. Ashutosh Tiwari
 :--|:--|
 <b> Institute | <b> Rajkiya Engineering College,Banda
-<b> Email id|     <b>  akanksha.r.pal@gmail.com
-<b> Department |  Information Technology
+<b> Email id|     <b>  ashutosh.tiwari@gmail.com
+<b> Department |  Applied Science and Humanity
 
 ### Contributors List
 
 SrNo | Name | Faculty or Student | Department| Institute | Email id
-:--|:--|:--|:--|:--|:--|
-1 | Dr. Ashutosh Tiwari | Faculty | Applied Science and Humanity |  Rajkiya Engineering College,Banda| ashutosh.tiwari@gmail.com
-2 | Akanksha Pal | student | Information Technology |  Rajkiya Engineering College,Banda | akanksha.r.pal@gmail.com
-3 | Kajal Yadav | student | Electrical Engineering |  Rajkiya Engineering College,Banda | ykajal2002@gmail.com
-4 | Rahul Pushpakar | student | Mechanical Engineering |  Rajkiya Engineering College,Banda | rahulpushpker@gmail.com
+:--|:--|:--|:--|:--|:--| 
+1 | Akanksha Pal | student | Information Technology |  Rajkiya Engineering College,Banda | akanksha.r.pal@gmail.com
+2 | Kajal Yadav | student | Electrical Engineering |  Rajkiya Engineering College,Banda | ykajal2002@gmail.com
+3 | Rahul Pushpakar | student | Mechanical Engineering |  Rajkiya Engineering College,Banda | rahulpushpker@gmail.com
