@@ -1,0 +1,56 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. In superposition theorem, while considering a source, all other voltage sources are?",
+      "answers": {
+        "a": "open circuited",
+        "b": "short circuited",
+        "c": "change in position",
+        "d": "removed from the circuit"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='https://www.sanfoundry.com/network-theory-questions-answers-thevenins-theorem-ac/'>short circuited</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. Can we use Thevenin's theorem on a circuit containing a BJT?",
+      "answers": {
+        "a": "yes",
+        "b": "no",
+        "c": "depends on the BJT",
+        "d": "insufficient data provided"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='https://www.sanfoundry.com/network-theory-questions-answers-thevenins-theorem-ac/'>no</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. Superposition theorem is applicable for the calculation of:",
+      "answers": {
+        "a": "voltage and current but not power",
+        "b": "both voltage and power ",
+        "c": "both current and power",
+        "d": "voltage,current and power"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='https://www.sanfoundry.com/network-theory-questions-answers-thevenins-theorem-ac/'>voltage and current but not power</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+  ]
+}
