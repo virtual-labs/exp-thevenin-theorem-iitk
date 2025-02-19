@@ -1,13 +1,60 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theorem Simulators</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            background: linear-gradient(to right, #1e3c72, #2a5298);
+            color: white;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            background: white;
+            padding: 30px; /* Increased padding for better spacing */
+            border-radius: 12px;
+            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+            max-width: 400px;
+            width: 90%;
+            text-align: center;
+            color: #333;
+        }
+        h1 {
+            margin-bottom: 25px;
+            font-size: 24px;
+        }
+        .button {
+            display: block;
+            width: calc(100% - 20px); /* Keeps button within the container */
+            padding: 15px;
+            margin: 12px auto; /* Adjusted margin for better spacing */
+            border: none;
+            border-radius: 8px;
+            background: linear-gradient(135deg, #007BFF, #0056b3);
+            color: white;
+            font-size: 16px;
+            text-decoration: none;
+            transition: 0.3s ease-in-out;
+        }
+        .button:hover {
+            background: linear-gradient(135deg, #0056b3, #003b80);
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Theorem Simulators</h1>
+        <a href="thevenin's theorem.html" class="button">Thevenin Theorem</a>
+        <a href="superposition.html" class="button">Superposition Theorem</a>
+    </div>
+</body>
 </html>
