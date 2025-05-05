@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superposition Theorem Calculator</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(to right, #1e3c72, #2a5298);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            display: flex;
+            flex-direction: row;
+            background: #ffffff;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+            width: 90%;
+            max-width: 1100px;
+            justify-content: space-between;
+            gap: 20px;
+        }
+        
+        .left-section, .right-section {
+            width: 48%;
+        }
+        
+        h2, h3 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 15px;
+        }
+        
+        .input-group {
+            margin-bottom: 12px;
+        }
+        
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+            color: #222;
+        }
+        
+        input {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #ccc;
+            border-radius: 6px;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+        
+        input:focus {
+            border-color: #007BFF;
+            outline: none;
+            box-shadow: 0px 0px 8px rgba(0, 123, 255, 0.5);
+        }
+        
+        button {
+            width: 100%;
+            padding: 12px;
+            background: linear-gradient(135deg, #007BFF, #0056b3);
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+            transition: 0.3s;
+        }
+        
+        button:hover {
+            background: linear-gradient(135deg, #0056b3, #003b80);
+            transform: scale(1.05);
+        }
+        
+        .result {
+            margin-top: 15px;
+            font-size: 18px;
+            text-align: center;
+            font-weight: bold;
+            color: #007BFF;
+        }
+        
+        .table-container {
+            max-height: 200px;
+            overflow-y: auto;
+            margin-top: 10px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: #f9f9f9;
+        }
+        
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+        }
+        
+        th {
+            background: #007BFF;
+            color: white;
+        }
+        
+        .circuit-diagram {
+            text-align: center;
+            margin-top: 10px;
+            padding: 15px;
+            background: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            display: block;
+            margin: auto;
+            border: 3px solid #007BFF;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="left-section">
+        <h2>Superposition Theorem Calculator</h2>
+        
+        <div class="input-group">
+            <label for="v1">Voltage Source V1 (V):</label>
+            <input type="number" id="v1" required>
+        </div>
+        <div class="input-group">
+            <label for="v2">Voltage Source V2 (V):</label>
+            <input type="number" id="v2" required>
+        </div>
+        <div class="input-group">
+            <label for="r1">Resistance R1 (Ω):</label>
+            <input type="number" id="r1" required>
+        </div>
+        <div class="input-group">
+            <label for="r2">Resistance R2 (Ω):</label>
+            <input type="number" id="r2" required>
+        </div>
+        <button onclick="calculateSuperposition()">Calculate</button>
+        <button onclick="addObservation()">Add Observation</button>
+        <div class="result" id="result"></div>
+        <h3>Observation Table</h3>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>V1 (V)</th>
+                        <th>V2 (V)</th>
+                        <th>R1 (Ω)</th>
+                        <th>R2 (Ω)</th>
+                        <th>Resultant Current (A)</th>
+                    </tr>
+                </thead>
+                <tbody id="observationTable"></tbody>
+            </table>
+        </div>
+    </div>
+    <div class="right-section">
+        <h3>Circuit Diagram</h3>
+        <div class="circuit-diagram">
+           
+            <img src="superposition2.png.jpeg" alt="Thevenin Circuit Diagram">
+             <!-- <img src="thevenin.jpeg" alt="Superposition Theorem Circuit"> -->
+        </div>
+    </div>
+</div>
+<script>
+    function calculateSuperposition() {
+        let V1 = parseFloat(document.getElementById("v1").value);
+        let V2 = parseFloat(document.getElementById("v2").value);
+        let R1 = parseFloat(document.getElementById("r1").value);
+        let R2 = parseFloat(document.getElementById("r2").value);
+        
+        let I1 = V1 / R1;
+        let I2 = V2 / R2;
+        let I_total = I1 + I2;
+        
+        document.getElementById("result").innerHTML = `Total Current = ${I_total.toFixed(2)} A`;
+    }
+    
+    function addObservation() {
+        let table = document.getElementById("observationTable");
+        let newRow = `<tr><td>${v1.value}</td><td>${v2.value}</td><td>${r1.value}</td><td>${r2.value}</td><td>${(parseFloat(v1.value)/parseFloat(r1.value) + parseFloat(v2.value)/parseFloat(r2.value)).toFixed(2)}</td></tr>`;
+        table.innerHTML += newRow;
+    }
+</script>
+</body>
+</html>
