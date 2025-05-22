@@ -10,10 +10,10 @@
         "d": ". neither open circuit nor short circuit voltage"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='https://www.sanfoundry.com/network-theory-questions-answers-thevenins-theorem-ac/'>open circuit voltage</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "The Thevenin voltage (also called Thevenin equivalent voltage) is defined as the open-circuit voltage at the terminals of a linear two-terminal circuit when no load is connected. This means it's the voltage measured across the output terminals with infinite impedance (open circuit).", 
+        "b": "",
+        "c": "",
+        "d": ""
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
@@ -27,10 +27,10 @@
         "d": "opening all voltage sources and shorting all current sources"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='https://www.sanfoundry.com/network-theory-questions-answers-thevenins-theorem-ac/'>shorting all voltage sources and opening all current sources</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "",
+        "b": "",
+        "c": "Because turning off sources (shorting voltage sources and opening current sources) reveals the circuit's internal resistance seen from the output terminals.",
+        "d": ""
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
@@ -44,10 +44,10 @@
         "d": "neither linear nor non linear networks"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='https://www.sanfoundry.com/network-theory-questions-answers-thevenins-theorem-ac/'>linear networks</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Superposition theorem applies only to linear networks, where responses are directly proportional to inputs.",
+        "b": "",
+        "c": "",
+        "d": ""
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
