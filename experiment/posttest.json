@@ -2,37 +2,54 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "In superposition theorem, while considering a source, all other voltage sources are?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "open circuited",
+        "b": "short circuited",
+        "c": "change in position",
+        "d": "removed from the circuit"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": ""  ,
+        "b": "In superposition theorem, all other independent voltage sources are short circuited to analyze the effect of one source at a time.",
+        "c": "",
+        "d": ""
       },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Can we use Thevenin's theorem on a circuit containing a BJT?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "yes",
+        "b": "no",
+        "c": "depends on the BJT",
+        "d": "insufficient data provided"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "",
+        "b": "Thevenin's theorem can be used on circuits with a BJT, as long as the analysis is applied to the linear (small-signal) model of the circuit.",
+        "c": "",
+        "d": ""
       },
-      "correctAnswer": "c",
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Superposition theorem is applicable for the calculation of:",
+      "answers": {
+        "a": "voltage and current but not power",
+        "b": "both voltage and power ",
+        "c": "both current and power",
+        "d": "voltage,current and power"
+      },
+      "explanations": {
+        "a": "Superposition theorem applies to voltage and current, but not power, because power is a nonlinear function of voltage or current (P = V²/R or I²R).",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]
