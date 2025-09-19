@@ -37,8 +37,8 @@ R<sub>L</sub> = Load Resistance
 Conclusion:
 Thevenin’s Theorem allows you to simplify a complex circuit into a simple two-component equivalent, making analysis easier—especially when studying the effect of varying the load resistor RL.
 
-
 <h2> superposition theorem</h2>
+
 Let us understand the superposition theorem with the help of an example. The circuit diagram is shown below consists of two voltage sources V1 and V2.
 
  <!-- ![image](https://user-images.githubusercontent.com/98012700/217304122-aa3706d3-f8a0-47af-a092-876425759e8c.png) -->
@@ -68,7 +68,9 @@ Here,
 
 
 <!-- ![image](https://user-images.githubusercontent.com/98012700/217306030-dfc9435b-701e-47a6-9f02-e0335d76fd24.png) -->
- i₂″ = V₂ / [(r₁·r₃) / (r₁ + r₃) + r₂] ———(4)  and   i₁″ = i₂″ · (r₃ / (r₁ + r₃))———-(5)
+ i₂″ = V₂ / [(r₁·r₃) / (r₁ + r₃) + r₂] ———(4)  
+ and  
+  i₁″ = i₂″ · (r₃ / (r₁ + r₃))———-(5)
 
  
 And the value of the current i3'' will be calculated by the equation shown below:
@@ -83,7 +85,9 @@ As per the superposition theorem, the value of current i1, i2, i3 is now calcula
 
 <!-- ![image](https://user-images.githubusercontent.com/98012700/217306273-d7f4504c-0981-44b0-9f3c-74e2ebedec44.png) -->
 i₃ = i₃′ + i₃″ ——(7)
+
 i₂ = i₂′ − i₂″——(8)
+
 i₁ = i₁′ − i₁″———(9)
 
  
