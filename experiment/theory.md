@@ -1,3 +1,4 @@
+
 Let us understand Thevenin’s Theorem with the help of an example. The circuit diagram shown below consists of a network connected to a load resistor R<sub>L</sub>.
 
 <img src="images/Thevenin_Circuit_1.png" width="350" height="400">
