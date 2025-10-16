@@ -1,42 +1,43 @@
+<b>Thevenin's Theorem and the Superposition Theorem are fundamental tools in linear electrical circuit analysis.</b><br>
 
-Let us understand Thevenin’s Theorem with the help of an example. The circuit diagram shown below consists of a network connected to a load resistor R<sub>L</sub>.
+<b>1. Thevenin's Theorem</b> : Thevenin's theorem provides a method to simplify any complex linear circuit into a very simple equivalent circuit.<br>
+
+<b>Statement: </b><br>
+• Any two-terminal, linear electrical network containing voltage sources, current sources, and resistors can be replaced by an equivalent circuit consisting of a single voltage source (Thevenin Voltage) in series with a single resistor (Thevenin Resistance).<br>
+• (Thevenin Voltage) is the open-circuit voltage measured across the two terminals.<br>
+• (Thevenin Resistance) is the equivalent resistance measured across the two terminals when all independent sources are turned off(i.e., independent voltage sources are replaced by short circuits, and independent current sources are replaced by open circuits).<br>
+• This equivalent circuit, known as the Thevenin equivalent circuit, is particularly useful when you need to analyze the behavior of the circuit across a changing load connected to the two terminals. <br>
+The circuit diagram shown below consists of a network connected to a load resistor R<sub>L</sub>.
 
 <img src="images/Thevenin_Circuit_1.png" width="350" height="400">
 
-Step 1: Remove the Load Resistor R<sub>L</sub>
-
-
+Step 1: Remove the Load Resistor R<sub>L</sub><br>
 The open-circuit voltage across these terminals is known as V<sub>th</sub>, calculated using standard circuit analysis techniques.
 
 
-Step 2: Find the Thevenin Resistance R<sub>th</sub>
-Now deactivate all independent sources:
+Step 2: Find the Thevenin Resistance R<sub>th</sub><br>
+Now deactivate all independent sources : <br>
+• Replace voltage sources with a short circuit.<br>
+• Replace current sources with an open circuit.<br>
+• Then, calculate the equivalent resistance across the open terminals. This resistance is called R<sub>th</sub>.<br>
 
-Replace voltage sources with a short circuit.
+Step 3: Thevenin Equivalent Circuit<br>
+Now construct the Thevenin equivalent circuit using the calculated values of V<sub>th</sub> and R<sub>th</sub>. Connect the load resistor R<sub>L</sub> back to this simplified circuit.<br>
 
-Replace current sources with an open circuit.
+Step 4: Calculate Load Current<br>
+The load current I<sub>L</sub> flowing through R<sub>L</sub> can be calculated using Ohm’s Law:<br>
+Where:<br>
+V<sub>th</sub> = Thevenin Voltage<br>
+R<sub>th</sub> = Thevenin Resistance<br>
+R<sub>L</sub> = Load Resistance<br>
 
-Then, calculate the equivalent resistance across the open terminals. This resistance is called R<sub>th</sub>.
+<b>Conclusion:</b><br>
+Thevenin’s Theorem allows you to simplify a complex circuit into a simple two-component equivalent, making analysis easier—especially when studying the effect of varying the load resistor R<sub>L</sub>.<br><br>
 
+<b>2. Superposition Theorem</b> : The Superposition Theorem is used to analyze linear circuits that contain multiple independent sources (voltage or current sources).<br>
 
-Step 3: Thevenin Equivalent Circuit
-Now construct the Thevenin equivalent circuit using the calculated values of V<sub>th</sub> and R<sub>th</sub>. Connect the load resistor R<sub>L</sub> back to this simplified circuit.
-
-
-Step 4: Calculate Load Current
-The load current I<sub>L</sub> flowing through R<sub>L</sub> can be calculated using Ohm’s Law:
-
-
-Where:
-
-V<sub>th</sub> = Thevenin Voltage
-
-R<sub>th</sub> = Thevenin Resistance
-
-R<sub>L</sub> = Load Resistance
-
-Conclusion:
-Thevenin’s Theorem allows you to simplify a complex circuit into a simple two-component equivalent, making analysis easier—especially when studying the effect of varying the load resistor R<sub>L</sub>.
+<b>Statement: </b><br>
+• In any linear, bilateral network having more than one independent source, the current through or voltage across any element is the algebraic sum of the responses (currents or voltages) produced by each independent source acting alone, while all other independent sources are replaced by their internal resistances.
 
 
 
