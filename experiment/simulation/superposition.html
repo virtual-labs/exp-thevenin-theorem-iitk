@@ -196,6 +196,7 @@
     </div>
 </div>
 <script>
+    let result = 1.0;
     function calculateSuperposition() {
         let V1 = parseFloat(document.getElementById("v1").value);
         let V2 = parseFloat(document.getElementById("v2").value);
@@ -208,13 +209,13 @@
         let I1 = V1 / Rt;
         let I2 = I1 * (R3/(R2 + R3));
         let I_total = I1 - I2;
-        
+        result = I_total;
         document.getElementById("result").innerHTML = `Total Current = ${I_total.toFixed(2)} A`;
     }
     
     function addObservation() {
         let table = document.getElementById("observationTable");
-        let newRow = `<tr><td>${v1.value}</td><td>${v2.value}</td><td>${r1.value}</td><td>${r2.value}</td><td>${r3.value}</td><td>${(parseFloat(v1.value)/parseFloat(r1.value) + parseFloat(v2.value)/parseFloat(r2.value)).toFixed(2)}</td></tr>`;
+        let newRow = `<tr><td>${v1.value}</td><td>${v2.value}</td><td>${r1.value}</td><td>${r2.value}</td><td>${r3.value}</td><td>${/*(parseFloat(v1.value)/parseFloat(r1.value) + parseFloat(v2.value)/parseFloat(r2.value))*/result.toFixed(2)}</td></tr>`;
         table.innerHTML += newRow;
     }
 </script>
