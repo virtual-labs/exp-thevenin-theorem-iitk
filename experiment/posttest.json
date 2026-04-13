@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "In superposition theorem, while considering a source, all other voltage sources are?",
+      "question": "1. In superposition theorem, while considering a source, all other voltage sources are?",
       "answers": {
         "a": "open circuited",
         "b": "short circuited",
@@ -19,7 +19,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Can we use Thevenin's theorem on a circuit containing a BJT?",
+      "question": "2. Can we use Thevenin's theorem on a circuit containing a BJT?",
       "answers": {
         "a": "yes",
         "b": "no",
@@ -36,7 +36,7 @@
       "difficulty": "beginner"
     },
     {
-      "question": "Superposition theorem is applicable for the calculation of:",
+      "question": "3. Superposition theorem is applicable for the calculation of:",
       "answers": {
         "a": "voltage and current but not power",
         "b": "both voltage and power ",
