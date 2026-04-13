@@ -1,0 +1,56 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. In superposition theorem, while considering a source, all other voltage sources are?",
+      "answers": {
+        "a": "open circuited",
+        "b": "short circuited",
+        "c": "change in position",
+        "d": "removed from the circuit"
+      },
+      "explanations": {
+        "a": ""  ,
+        "b": "In superposition theorem, all other independent voltage sources are short circuited to analyze the effect of one source at a time.",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. Can we use Thevenin's theorem on a circuit containing a BJT?",
+      "answers": {
+        "a": "yes",
+        "b": "no",
+        "c": "depends on the BJT",
+        "d": "insufficient data provided"
+      },
+      "explanations": {
+        "a": "",
+        "b": "Thevenin's theorem can be used on circuits with a BJT, as long as the analysis is applied to the linear (small-signal) model of the circuit.",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. Superposition theorem is applicable for the calculation of:",
+      "answers": {
+        "a": "voltage and current but not power",
+        "b": "both voltage and power ",
+        "c": "both current and power",
+        "d": "voltage,current and power"
+      },
+      "explanations": {
+        "a": "Superposition theorem applies to voltage and current, but not power, because power is a nonlinear function of voltage or current (P = V²/R or I²R).",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+  ]
+}
