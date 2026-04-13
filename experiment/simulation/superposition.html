@@ -214,7 +214,7 @@
     
     function addObservation() {
         let table = document.getElementById("observationTable");
-        let newRow = `<tr><td>${v1.value}</td><td>${v2.value}</td><td>${r1.value}</td><td>${r2.value}</td><td>${r3.value}</td><td>${(parseFloat(v1.value)/parseFloat(r1.value) + parseFloat(v2.value)/parseFloat(r2.value)).toFixed(2)}</td></tr>`;
+        let newRow = `<tr><td>${v1.value}</td><td>${v2.value}</td><td>${r1.value}</td><td>${r2.value}</td><td>${r3.value}</td><td>${/*(parseFloat(v1.value)/parseFloat(r1.value) + parseFloat(v2.value)/parseFloat(r2.value))*/I_total.toFixed(2)}</td></tr>`;
         table.innerHTML += newRow;
     }
 </script>
